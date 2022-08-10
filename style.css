@@ -1,0 +1,28 @@
+.container {
+    display: flex;  
+    /*flex-direction: row;
+    flex-wrap: nowrap;*/
+    max-width: 1000px;
+    /*justify-content: space-evenly;*/
+    justify-content: start;
+  
+    background: blue;
+    margin-inline: auto;
+}
+
+.item {
+  
+    background: red;
+    border: 1px solid black;    
+}
+
+
+.item:nth-of-type(2) {
+   
+   flex-basis: 700px
+}
+
+.item:nth-of-type(3) {
+  
+    flex-shrink: 200px;
+ }
